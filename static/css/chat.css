@@ -1,0 +1,20 @@
+*{margin: 0;padding: 0;}
+body{background: gray;background-size: cover;font-size: 12px; font-family: 微软雅黑; color: #666;}
+.box{width: 800px;height: 530px;background: #ffcc00;
+    margin: 50px auto;
+
+}
+.box .box-title{height: 68px;background: deepskyblue;line-height: 68px; font-size: 18px; color: #ffffff;
+    padding-left: 10px;}
+.box .box-con{height: 380px; width: 800px; background: #e6e6e6; overflow-y: auto; }
+.box .box-msg{height: 82px; background: #dbdbdb;}
+.box .box-msg .box1{width: 680px; height: 62px; background: #e2e2e2;
+    float: left; outline: none; padding: 10px;}
+.box .box-msg .send{float: right;}
+.box .box-msg .send input{width: 100px; height: 82px; outline: none; cursor: pointer;}
+.box .box-msg .send input:hover{background: #d8d8d8;}
+
+.box .box-con .box-left {padding: 10px 0 0 10px;}
+.box .box-con .box-left img{vertical-align: middle;border-radius: 50%;}
+.box .box-con .box-right{text-align: right; padding-right: 10px;}
+.box .box-con .box-right img{vertical-align: middle;border-radius: 50%;}
